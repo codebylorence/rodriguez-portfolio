@@ -24,7 +24,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 border-b border-background/10 md:py-0 text-center md:text-left"
+      className="min-h-screen flex flex-col py-20 md:flex-row justify-center items-center gap-10 md:gap-20 border-b border-background/10 md:py-0 text-center md:text-left"
     >
 
       <div className="order-2 md:order-1">
