@@ -1,5 +1,5 @@
 import React from 'react'
-import about from './../assets/about.jpg'
+import about from './../assets/about-picture.jpg'
 import { GraduationCap, MapPin, Code2, Briefcase } from 'lucide-react'
 import { useInView } from './../hooks/useInView'
 
