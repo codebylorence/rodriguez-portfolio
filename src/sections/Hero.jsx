@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import FoldText from './../components/Intro'
 import profile from './../assets/profile.png'
 import { Download, ArrowRight } from 'lucide-react'
-import resume from './../CV/RODRIGUEZ CV.pdf'
+import resume from './../CV/Lorence_Rodriguez CV.pdf'
 
 function useIsMobile(breakpoint = 768) {
   const [isMobile, setIsMobile] = useState(
