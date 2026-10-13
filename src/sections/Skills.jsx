@@ -1,6 +1,7 @@
 import React from 'react'
 import { useInView } from './../hooks/useInView'
 
+
 const skillGroups = [
   {
     category: 'Frontend Development',
@@ -9,6 +10,8 @@ const skillGroups = [
       { name: 'CSS', className: 'devicon-css3-plain colored' },
       { name: 'JavaScript', className: 'devicon-javascript-plain colored' },
       { name: 'React', className: 'devicon-react-original colored' },
+      { name: 'TypeScript', img: 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/typescript/default.svg'},
+      { name: 'Axios', className: 'devicon-axios-plain colored' },
       { name: 'Tailwind CSS', className: 'devicon-tailwindcss-plain colored' },
       { name: 'Bootstrap', className: 'devicon-bootstrap-plain colored' },
     ],
@@ -16,25 +19,31 @@ const skillGroups = [
   {
     category: 'Backend Development',
     skills: [
-      { name: 'Node.js', className: 'devicon-nodejs-plain colored' },
+      { name: 'Node.js', img: 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/nodedotjs/default.svg' },
       { name: 'Express.js', className: 'devicon-express-original' },
       { name: 'PHP', className: 'devicon-php-plain colored' },
+      { name: 'RESTful API', img: 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/gcp-api/default.svg' },
     ],
   },
   {
     category: 'Database',
     skills: [
       { name: 'MySQL', className: 'devicon-mysql-plain colored' },
+      { name: 'PostgreSQL', img: 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/postgresql/default.svg' },
       { name: 'Sequelize', className: 'devicon-sequelize-plain colored' },
     ],
   },
   {
     category: 'Tools & Version Control',
     skills: [
+      { name: 'Visual Studio Code', className: 'devicon-vscode-plain colored' },
       { name: 'Git', className: 'devicon-git-plain colored' },
       { name: 'GitHub', className: 'devicon-github-original' },
+      { name: 'XAMPP',  img: 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/xampp/default.svg' },
+      { name: 'Postman', className: 'devicon-postman-plain colored' },
       { name: 'Vercel', className: 'devicon-vercel-original' },
       { name: 'Render', img: 'https://cdn.simpleicons.org/render' },
+      { name: 'Figma', img: 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/figma/default.svg' },
     ],
   },
 ]
